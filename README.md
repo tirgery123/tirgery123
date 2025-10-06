@@ -1,7 +1,4 @@
-  NOTE: NO she/her please!!!!!!!!! it genuinely remidns me of my pastr trauma and issues as a woman such as periods!!!!! i did not implant this schlong just to be called a she, as well!! so again, NO SHE HERR!! I WILL BLOCK YOU IF I NEED TO. UR ONLY ADN FINAL WARNING.                                                                     t-masc demiboy boyfailure he/xe/they/pup/star
-
-
-  
+ 
                                                                   I am the Lelelele
                                                                   i am one of many.
                                                                  may your ass be fat.
