@@ -1,10 +1,2 @@
- 
-                                                                  I am the Lelelele
-                                                                  i am one of many.
-                                                                 may your ass be fat.
-                                                               and your woe's, be many.
-  ![leleleelelel](https://github.com/user-attachments/assets/7bbe3188-06d6-4505-bdc8-0152fa416406)
-  ![](https://komarev.com/ghpvc/?username=tirgery123&color=red)
+<a href="https://www.github.com/tirgery123/"><img src="https://64.media.tumblr.com/f6d604e364bad532361c3571088b14db/c9e15b13f9cba2a8-66/s1280x1920/6addc14d785f8c1c08726c3ca9f7c4d9154e9447.pnj" width="95%" Height="10%" alt="e.n intr" title="Woes Be Many."></a>
 
-
-![feeety](https://github.com/user-attachments/assets/b85299c3-ee44-4b07-b904-948bc2fcfe62)
