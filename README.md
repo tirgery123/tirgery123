@@ -1,4 +1,1 @@
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/f76bf423-389d-4b21-b174-7a06502b3cc8" />
-
-
-Wumble (Wumble) is oh my god what si that???wtf this looks unironically disgusting. It is the only mammal to fly, also it can carry up to thousands of children in it's "empreg" stomac
+<img width="478" height="365" alt="image" src="https://github.com/user-attachments/assets/6bc91c20-c768-420c-8eaa-526f00ad16f8" />
