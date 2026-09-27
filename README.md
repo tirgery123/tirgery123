@@ -161,6 +161,6 @@ FILE CLOSED · WUMBLE REMAINS AT LARGE
 
 <br><br>
 
-<a href="#top">RETURN TO TOP</a>
+<img width="75" src="https://komarev.com/ghpvc/?username=tirgery123&label=Woes&color=f35757">
 
 </div>
