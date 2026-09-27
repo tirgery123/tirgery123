@@ -96,14 +96,13 @@ May your ass be fat, and your woes be many.”
 <td align="center">
 
 <p>
-Wumble moves through the world with the confidence of something that
-has never once been asked to explain itself.
+$\color{#d80100}{\textsf{Wumble moves through the world with the confidence of something that has never once been asked to explain itself.}}$
 </p>
 
 <p>
-Nobody knows where Wumble came from. Some say there are others.
-Some say Wumble is the original. Wumble refuses to clarify.
+$\color{#d80100}{\textsf{Nobody knows where Wumble came from. Some say there are others. Some say Wumble is the original. Wumble refuses to clarify.}}$
 </p>
+
 
 </td>
 </tr>
