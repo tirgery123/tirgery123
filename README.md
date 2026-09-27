@@ -13,11 +13,11 @@
 
 <br><br>
 
-<sub>Shits on floor* / Lifts leg n pees*</sub>
+<sub>$\color{#d80100}{\textsf{ Lifts leg and Pees* }}$</sub>
 
 <br><br>
 
-<h1>W U M B L E</h1>
+<h1>$\color{#d80100}{\textsf{W U M B L E}}$</h1>
 
 <pre>
 FOOT ANALYZER
