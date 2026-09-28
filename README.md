@@ -47,12 +47,11 @@ THE LELELELE · ONE OF MANY · PROBABLY, shit idk
 
 <div id="about"></div>
 
-<h2>ABOUT WUMBLE</h2>
 
 <br>
 
 <p>
-Holy shit, guys. Wumble is here.
+Holy shit.
 </p>
 
 <br>
