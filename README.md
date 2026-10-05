@@ -19,15 +19,8 @@
 
 <h1>$\color{#d80100}{\textsf{W U M B L E}}$</h1>
 
-<pre>
-FOOT ANALYZER
-AURA LAUNDERER
-UNDISPUTED GOAT
-</pre>
 
-<sub>
-THE LELELELE · ONE OF MANY · PROBABLY, shit idk
-</sub>
+
 
 <br><br>
 
@@ -60,22 +53,6 @@ Holy shit.
 <tr>
 <td width="50%" align="center">
 
-<pre>
- NAME :3    WUMBLE
- KNOWN AS   THE LELELELE
- ROLE       ABSOLUTE UNIT
- STATUS     PRESENT
-</pre>
-
-</td>
-
-<td width="50%" align="center">
-
-<pre>
-SKILL      FOOT ANALYSIS
-SPECIALTY  AURA LAUNDERING  
-MOTIVE     HARRASSMENT
-</pre>
 
 </td>
 </tr>
@@ -94,48 +71,8 @@ May your ass be fat, and your woes be many.”
 <tr>
 <td align="center">
 
-<p>
-$\color{#d80100}{\textsf{Wumble moves through the world with the confidence of something that has never once been asked to explain itself.}}$
-</p>
-
-<p>
-$\color{#d80100}{\textsf{Nobody knows where Wumble came from. Some say there are others. Some say Wumble is the original. Wumble refuses to clarify.}}$
-</p>
 
 
-</td>
-</tr>
-</table>
-
-</td>
-</tr>
-</table>
-
-<br><br>
-
-<table width="84%" align="center" cellpadding="16">
-<tr>
-<td align="center">
-
-<div id="transmission"></div>
-
-<h2>Message from the GOAT</h2>
-
-<br>
-
-<pre>
-I eat ass.
-
-I still eat ass.
-
-Dude, guess what I eat.
-
-[ Then i walk in* ]
-</pre>
-
-</td>
-</tr>
-</table>
 
 <br><br>
 
