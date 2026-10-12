@@ -1,5 +1,4 @@
-<!-- BOTTOM: something rises out of the dark while the last words type themselves.
-     Edit a line's <text>; if longer, raise the width numbers in its clipPath. -->
+
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="230" viewBox="0 0 900 230">
   <defs>
     <filter id="st" x="0" y="0" width="100%" height="100%">
