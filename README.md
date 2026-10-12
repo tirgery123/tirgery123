@@ -1,7 +1,7 @@
 <img src="assets/altar.svg" width="100%" alt="OFFERINGS to wumble">
 
 <p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=tirgery123.tirgery123&left_color=black&right_color=darkred&left_text=offerings%20received" alt="offerings received">
+  <img src="assets/counter-left.svg" height="40" alt="offerings received"><img src="https://visitor-badge.laobi.icu/badge?page_id=tirgery123.tirgery123&left_color=black&right_color=darkred&left_text=%E2%80%A0" height="40" alt="count"><img src="assets/counter-right.svg" height="40" alt="">
   <br>
   <a href="https://wumble.straw.page"><img src="assets/link-straw.svg" height="40" alt="straw.page"></a>
   <a href="https://rentry.co/wumbwumb"><img src="assets/link-rentry.svg" height="40" alt="rentry"></a>
