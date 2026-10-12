@@ -1,1 +1,17 @@
-
+<!-- COUNTER (left half): candle + "OFFERINGS RECEIVED". The live number badge sits right after this image. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="290" height="40" viewBox="0 0 290 40">
+  <defs>
+    <linearGradient id="blood" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff2a2a"/><stop offset=".6" stop-color="#9b0000"/><stop offset="1" stop-color="#3a0000"/></linearGradient>
+    <linearGradient id="flame" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff2c0"/><stop offset=".5" stop-color="#ffb030"/><stop offset="1" stop-color="#ff2a00"/></linearGradient>
+    <filter id="b"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+  <path d="M8 0 H290 V40 H8 L2 33 L6 26 L1 18 L5 10 L1 4 Z" fill="#000"/>
+  <rect x="8" y="0" width="282" height="2" fill="#8b0000"/><rect x="8" y="38" width="282" height="2" fill="#8b0000"/>
+  <!-- candle -->
+  <rect x="17" y="20" width="7" height="16" fill="#d9cbb0"/>
+  <ellipse cx="20.5" cy="13" rx="8" ry="9" fill="#ff5a1a" opacity=".35" filter="url(#b)"><animate attributeName="opacity" values=".35;.15;.4;.2;.35" dur="1.4s" repeatCount="indefinite"/></ellipse>
+  <g transform="translate(20.5 19)"><path d="M0 -12 C4 -6 3 -1 0 0 C-3 -1 -4 -6 0 -12 Z" fill="url(#flame)">
+    <animateTransform attributeName="transform" type="scale" values="1 1;1.15 .85;.9 1.1;1 1" dur=".35s" repeatCount="indefinite"/></path></g>
+  <text x="36" y="28" font-family="'Chiller','Creepster','Jokerman',Georgia,serif" font-size="20" font-weight="bold" fill="url(#blood)" letter-spacing="1" textLength="244" lengthAdjust="spacingAndGlyphs">OFFERINGS RECEIVED
+    <animate attributeName="opacity" values="1;1;.3;1" keyTimes="0;.9;.92;.95" dur="6s" repeatCount="indefinite"/></text>
+</svg>
