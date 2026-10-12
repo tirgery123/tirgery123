@@ -1,0 +1,5 @@
+<!-- Dropdown label: "the congregation". Edit the text below. -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170" height="20" viewBox="0 0 170 20">
+  <text x="2" y="14" font-family="'Courier New',Courier,monospace" font-size="12" fill="#c41a1a" letter-spacing="2">the congregation
+    <animate attributeName="opacity" values="1;1;.2;1;.5;1" keyTimes="0;.8;.82;.84;.86;1" dur="4.0s" repeatCount="indefinite"/></text>
+</svg>
