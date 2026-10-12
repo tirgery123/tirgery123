@@ -1,4 +1,4 @@
-<!-- Link: a paper prayer slip reading "straw.page". Edit the word marked LABEL. -->
+
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="130" height="46" viewBox="0 0 130 46">
   <defs><filter id="r"><feTurbulence baseFrequency=".05" numOctaves="2" seed="19"/><feDisplacementMap in="SourceGraphic" scale="4"/></filter></defs>
   <g filter="url(#r)"><rect x="4" y="5" width="122" height="36" fill="#d6c9ae"/><rect x="4" y="5" width="122" height="36" fill="#5a2a10" opacity=".15"/></g>
