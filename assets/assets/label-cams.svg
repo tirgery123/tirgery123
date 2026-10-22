@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="48" viewBox="0 0 900 48">
+<rect width="900" height="48" fill="#0b100c"/>
+<path d="M0 46 H900" stroke="#26322a" stroke-width="2"/>
+<text x="10" y="30" font-family="'Courier New',Courier,monospace" font-size="13" fill="#ff2020" font-weight="bold">02</text>
+<text x="56" y="30" font-family="'Courier New',Courier,monospace" font-size="16" font-weight="bold" fill="#d6f0d8" letter-spacing="4">OTHER CAMERAS</text>
+<rect x="225.2" y="16" width="10" height="17" fill="#d6f0d8"><animate attributeName="opacity" values="1;0" dur="1.1s" calcMode="discrete" repeatCount="indefinite"/></rect>
+</svg>

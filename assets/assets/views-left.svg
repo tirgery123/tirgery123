@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="190" height="34" viewBox="0 0 190 34">
+<rect width="190" height="34" fill="#0b100c"/><rect x="1" y="1" width="188" height="32" fill="none" stroke="#26322a"/>
+<circle cx="16" cy="17" r="5" fill="#ff2020"><animate attributeName="opacity" values="1;0" dur="1s" calcMode="discrete" repeatCount="indefinite"/></circle>
+<text x="30" y="22" font-family="'Courier New',Courier,monospace" font-size="13" font-weight="bold" fill="#d6f0d8" letter-spacing="2">WATCHED BY</text>
+</svg>

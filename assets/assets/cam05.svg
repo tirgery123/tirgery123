@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="300" viewBox="0 0 440 300">
+<defs>
+  <filter id="nz" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="2">
+      <animate attributeName="seed" values="2;8;4;11;6;1;9" dur=".42s" calcMode="discrete" repeatCount="indefinite"/></feTurbulence>
+    <feColorMatrix values="0 0 0 0 .8  0 0 0 0 .95  0 0 0 0 .82  0 0 0 .22 0"/></filter>
+  <filter id="hard" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".7 .02" numOctaves="1" seed="5">
+      <animate attributeName="seed" values="5;3;9;1;7" dur=".2s" calcMode="discrete" repeatCount="indefinite"/></feTurbulence>
+    <feColorMatrix values="0 0 0 1.4 -.2  0 0 0 1.5 -.2  0 0 0 1.4 -.2  0 0 0 0 1"/></filter>
+  <pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".55"/></pattern>
+  <radialGradient id="vig" cx=".5" cy=".5" r=".72"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".9"/></radialGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="2"/></filter>
+  
+</defs>
+<rect width="440" height="300" fill="#0b100c"/>
+<path d="M0 0 L220 60 L440 0 Z" fill="#101611"/>
+<path d="M0 0 L220 60 L220 220 L0 300 Z" fill="#161e18"/>
+<path d="M440 0 L220 60 L220 220 L440 300 Z" fill="#131a14"/>
+<path d="M0 300 L220 220 L440 300 Z" fill="#1a231c"/>
+<path d="M220 60 V220" stroke="#26322a"/>
+<g opacity="1"><animate attributeName="opacity" values="1;0;1" keyTimes="0;0.3333;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/>
+  <rect x="190" y="150" width="60" height="70" rx="4" fill="#2c3a30"/><path d="M196 220 v30 M244 220 v30" stroke="#2c3a30" stroke-width="5"/>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3333;0.6667" calcMode="discrete" dur="12s" repeatCount="indefinite"/>
+  <rect x="192" y="140" width="56" height="44" rx="4" fill="#2c3a30"/><rect x="186" y="184" width="68" height="12" fill="#3a4c3e"/>
+  <path d="M192 196 v36 M248 196 v36" stroke="#2c3a30" stroke-width="5"/>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.6667;1" calcMode="discrete" dur="12s" repeatCount="indefinite"/>
+  <rect x="140" y="110" width="160" height="110" rx="8" fill="#2c3a30"/><rect x="124" y="220" width="192" height="30" fill="#3a4c3e"/>
+  <path d="M140 250 v60 M300 250 v60" stroke="#2c3a30" stroke-width="12"/>
+  <rect x="186" y="214" width="70" height="40" fill="#cfe2d0" transform="rotate(-6 220 234)"/>
+  <text x="221" y="241" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="15" font-weight="bold" fill="#0b100c" transform="rotate(-6 220 234)">SMILE</text>
+</g>
+<rect width="440" height="300" filter="url(#hard)" opacity="0"><animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0;0.3333;0.3483;0.6667;0.6817" calcMode="discrete" dur="12s" repeatCount="indefinite"/></rect>
+<rect width="440" height="300" fill="url(#scan)"/>
+<rect width="440" height="300" fill="url(#vig)"/>
+<rect width="440" height="300" filter="url(#nz)"/>
+
+<text x="16" y="26" font-family="'Courier New',Courier,monospace" font-size="14" font-weight="bold" fill="#d6f0d8" letter-spacing="2">CAM 05</text>
+<text x="16" y="44" font-family="'Courier New',Courier,monospace" font-size="12" fill="#d6f0d8" opacity=".75" letter-spacing="2">WUMBLE</text>
+<circle cx="378" cy="21" r="6" fill="#ff2020"><animate attributeName="opacity" values="1;0" dur="1s" calcMode="discrete" repeatCount="indefinite"/></circle>
+<text x="390" y="26" font-family="'Courier New',Courier,monospace" font-size="14" font-weight="bold" fill="#d6f0d8">REC</text>
+<text x="16" y="284" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="1">10-21-2026  03:00:00<animate attributeName="opacity" values="1;0;0;0;0;0;0;0;0;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="284" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:01<animate attributeName="opacity" values="0;1;0;0;0;0;0;0;0;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="284" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:02<animate attributeName="opacity" values="0;0;1;0;0;0;0;0;0;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="284" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:03<animate attributeName="opacity" values="0;0;0;1;0;0;0;0;0;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="284" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:04<animate attributeName="opacity" values="0;0;0;0;1;0;0;0;0;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="284" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:05<animate attributeName="opacity" values="0;0;0;0;0;1;0;0;0;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="284" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:06<animate attributeName="opacity" values="0;0;0;0;0;0;1;0;0;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="284" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:07<animate attributeName="opacity" values="0;0;0;0;0;0;0;1;0;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="284" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:08<animate attributeName="opacity" values="0;0;0;0;0;0;0;0;1;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="284" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:09<animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;1" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text>
+<path d="M10 10 h24 M10 10 v24 M430 10 h-24 M430 10 v24 M10 290 h24 M10 290 v-24 M430 290 h-24 M430 290 v-24" stroke="#d6f0d8" stroke-width="2" fill="none" opacity=".6"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="58" viewBox="0 0 210 58">
+<defs><filter id="r"><feTurbulence baseFrequency=".06" numOctaves="2" seed="14"/><feDisplacementMap in="SourceGraphic" scale="3"/></filter></defs>
+<g transform="rotate(1 105 29)">
+<rect x="5" y="6" width="200" height="46" rx="3" fill="#0d0d0d" stroke="#222"/>
+<rect x="5" y="6" width="200" height="4" fill="#1a1a1a"/>
+<g filter="url(#r)"><rect x="20" y="14" width="170" height="30" fill="#e9e4d4"/></g>
+<rect x="20" y="14" width="10" height="30" fill="#b01818"/>
+<text x="36" y="25" font-family="'Courier New',Courier,monospace" font-size="8" fill="#555" letter-spacing="1">TAPE 02 // SP</text>
+<text x="36" y="39" font-family="'Segoe Print','Bradley Hand','Comic Sans MS',cursive" font-size="14" font-weight="bold" fill="#111">rentry</text>
+<text x="186" y="40" text-anchor="end" font-family="'Courier New',Courier,monospace" font-size="7" fill="#b01818" font-weight="bold" transform="rotate(-8 170 37)">DON'T</text>
+</g>
+</svg>

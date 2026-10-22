@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="160" viewBox="0 0 900 160">
+<defs>
+  <filter id="nz" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="2">
+      <animate attributeName="seed" values="2;8;4;11;6;1;9" dur=".42s" calcMode="discrete" repeatCount="indefinite"/></feTurbulence>
+    <feColorMatrix values="0 0 0 0 .8  0 0 0 0 .95  0 0 0 0 .82  0 0 0 .22 0"/></filter>
+  <filter id="hard" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".7 .02" numOctaves="1" seed="5">
+      <animate attributeName="seed" values="5;3;9;1;7" dur=".2s" calcMode="discrete" repeatCount="indefinite"/></feTurbulence>
+    <feColorMatrix values="0 0 0 1.4 -.2  0 0 0 1.5 -.2  0 0 0 1.4 -.2  0 0 0 0 1"/></filter>
+  <pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".55"/></pattern>
+  <radialGradient id="vig" cx=".5" cy=".5" r=".72"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".9"/></radialGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="2"/></filter>
+  
+</defs>
+<rect width="900" height="160" fill="#0a14b4"/>
+<g font-family="'Courier New',Courier,monospace" font-weight="bold" fill="#ffffff" letter-spacing="4">
+  <text x="40" y="44" font-size="20">PLAY &#9654;</text>
+  <g opacity="1"><animate attributeName="opacity" values="1;0;1" keyTimes="0;0.3125;1" calcMode="discrete" dur="16s" repeatCount="indefinite"/><text x="450" y="98" text-anchor="middle" font-size="26">END OF TAPE</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3375;0.5625" calcMode="discrete" dur="16s" repeatCount="indefinite"/><text x="450" y="98" text-anchor="middle" font-size="26">REWINDING &#9664;&#9664;</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5875;0.975" calcMode="discrete" dur="16s" repeatCount="indefinite"/><text x="450" y="98" text-anchor="middle" font-size="26">THERE IS ANOTHER TAPE.</text>
+    <text x="450" y="128" text-anchor="middle" font-size="13" opacity=".8">IT HAS YOUR NAME ON IT.</text></g>
+</g>
+<rect width="900" height="160" fill="url(#scan)" opacity=".5"/>
+<rect width="900" height="160" filter="url(#hard)" opacity="0"><animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0;0.3125;0.3375;0.5625;0.5875" calcMode="discrete" dur="16s" repeatCount="indefinite"/></rect>
+<rect x="0" y="0" width="900" height="14" fill="#ffffff" opacity=".12"><animate attributeName="y" values="-14;160" dur="3.3s" repeatCount="indefinite"/></rect>
+</svg>

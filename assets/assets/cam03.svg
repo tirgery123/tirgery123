@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="300" viewBox="0 0 440 300">
+<defs>
+  <filter id="nz" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="2">
+      <animate attributeName="seed" values="2;8;4;11;6;1;9" dur=".42s" calcMode="discrete" repeatCount="indefinite"/></feTurbulence>
+    <feColorMatrix values="0 0 0 0 .8  0 0 0 0 .95  0 0 0 0 .82  0 0 0 .22 0"/></filter>
+  <filter id="hard" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".7 .02" numOctaves="1" seed="5">
+      <animate attributeName="seed" values="5;3;9;1;7" dur=".2s" calcMode="discrete" repeatCount="indefinite"/></feTurbulence>
+    <feColorMatrix values="0 0 0 1.4 -.2  0 0 0 1.5 -.2  0 0 0 1.4 -.2  0 0 0 0 1"/></filter>
+  <pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".55"/></pattern>
+  <radialGradient id="vig" cx=".5" cy=".5" r=".72"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".9"/></radialGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="2"/></filter>
+  
+</defs>
+<rect width="440" height="300" fill="#0b100c"/>
+<rect width="440" height="300" fill="#0e140f"/>
+<rect x="40" y="290" width="400" height="26" fill="#1c251e"/><path d="M40 290 H440" stroke="#2c3a30"/><rect x="80" y="264" width="360" height="26" fill="#18201a"/><path d="M80 264 H440" stroke="#2c3a30"/><rect x="120" y="238" width="320" height="26" fill="#1c251e"/><path d="M120 238 H440" stroke="#2c3a30"/><rect x="160" y="212" width="280" height="26" fill="#18201a"/><path d="M160 212 H440" stroke="#2c3a30"/><rect x="200" y="186" width="240" height="26" fill="#1c251e"/><path d="M200 186 H440" stroke="#2c3a30"/><rect x="240" y="160" width="200" height="26" fill="#18201a"/><path d="M240 160 H440" stroke="#2c3a30"/><rect x="280" y="134" width="160" height="26" fill="#1c251e"/><path d="M280 134 H440" stroke="#2c3a30"/><rect x="320" y="108" width="120" height="26" fill="#18201a"/><path d="M320 108 H440" stroke="#2c3a30"/><rect x="360" y="82" width="80" height="26" fill="#1c251e"/><path d="M360 82 H440" stroke="#2c3a30"/>
+<path d="M40 290 L400 56" stroke="#2c3a30" stroke-width="3"/>
+<rect x="390" y="10" width="40" height="46" fill="#030403"/>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1667;0.4167" calcMode="discrete" dur="12s" repeatCount="indefinite"/><g transform="translate(395 66) scale(0.3)">
+  <path d="M-17 -150 Q-25 -70 -13 0 L13 0 Q25 -70 17 -150 Q0 -160 -17 -150 Z" fill="#020302"/>
+  <path d="M-16 -146 Q-36 -80 -31 -18 M16 -146 Q36 -80 31 -18" stroke="#020302" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <rect x="-4" y="-162" width="8" height="14" fill="#020302"/>
+  <ellipse cx="0" cy="-178" rx="13" ry="18" fill="#020302"/>
+  <circle cx="-5" cy="-180" r="2.3" fill="#f2fff2"/><circle cx="5" cy="-180" r="2.3" fill="#f2fff2"/>
+</g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4167;0.6667" calcMode="discrete" dur="12s" repeatCount="indefinite"/><g transform="translate(255 160) scale(0.52)">
+  <path d="M-17 -150 Q-25 -70 -13 0 L13 0 Q25 -70 17 -150 Q0 -160 -17 -150 Z" fill="#020302"/>
+  <path d="M-16 -146 Q-36 -80 -31 -18 M16 -146 Q36 -80 31 -18" stroke="#020302" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <rect x="-4" y="-162" width="8" height="14" fill="#020302"/>
+  <ellipse cx="0" cy="-178" rx="13" ry="18" fill="#020302"/>
+  <circle cx="-5" cy="-180" r="2.3" fill="#f2fff2"/><circle cx="5" cy="-180" r="2.3" fill="#f2fff2"/>
+</g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.6667;0.875" calcMode="discrete" dur="12s" repeatCount="indefinite"/><g transform="translate(120 300) scale(0.95)">
+  <path d="M-17 -150 Q-25 -70 -13 0 L13 0 Q25 -70 17 -150 Q0 -160 -17 -150 Z" fill="#020302"/>
+  <path d="M-16 -146 Q-36 -80 -31 -18 M16 -146 Q36 -80 31 -18" stroke="#020302" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <rect x="-4" y="-162" width="8" height="14" fill="#020302"/>
+  <ellipse cx="0" cy="-178" rx="13" ry="18" fill="#020302"/>
+  <circle cx="-5" cy="-180" r="2.3" fill="#f2fff2"/><circle cx="5" cy="-180" r="2.3" fill="#f2fff2"/>
+</g></g>
+<rect width="440" height="300" filter="url(#hard)" opacity="0"><animate attributeName="opacity" values="0;1;0;1;0;1;0;1;0" keyTimes="0;0.1667;0.1817;0.4167;0.4317;0.6667;0.6817;0.875;0.89" calcMode="discrete" dur="12s" repeatCount="indefinite"/></rect>
+<rect width="440" height="300" fill="url(#scan)"/>
+<rect width="440" height="300" fill="url(#vig)"/>
+<rect width="440" height="300" filter="url(#nz)"/>
+
+<text x="16" y="26" font-family="'Courier New',Courier,monospace" font-size="14" font-weight="bold" fill="#d6f0d8" letter-spacing="2">CAM 03</text>
+<text x="16" y="44" font-family="'Courier New',Courier,monospace" font-size="12" fill="#d6f0d8" opacity=".75" letter-spacing="2">STAIRS</text>
+<circle cx="378" cy="21" r="6" fill="#ff2020"><animate attributeName="opacity" values="1;0" dur="1s" calcMode="discrete" repeatCount="indefinite"/></circle>
+<text x="390" y="26" font-family="'Courier New',Courier,monospace" font-size="14" font-weight="bold" fill="#d6f0d8">REC</text>
+<text x="16" y="284" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="1">10-21-2026  03:00:00<animate attributeName="opacity" values="1;0;0;0;0;0;0;0;0;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="284" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:01<animate attributeName="opacity" values="0;1;0;0;0;0;0;0;0;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="284" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:02<animate attributeName="opacity" values="0;0;1;0;0;0;0;0;0;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="284" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:03<animate attributeName="opacity" values="0;0;0;1;0;0;0;0;0;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="284" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:04<animate attributeName="opacity" values="0;0;0;0;1;0;0;0;0;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="284" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:05<animate attributeName="opacity" values="0;0;0;0;0;1;0;0;0;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="284" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:06<animate attributeName="opacity" values="0;0;0;0;0;0;1;0;0;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="284" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:07<animate attributeName="opacity" values="0;0;0;0;0;0;0;1;0;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="284" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:08<animate attributeName="opacity" values="0;0;0;0;0;0;0;0;1;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="284" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:09<animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;1" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text>
+<path d="M10 10 h24 M10 10 v24 M430 10 h-24 M430 10 v24 M10 290 h24 M10 290 v-24 M430 290 h-24 M430 290 v-24" stroke="#d6f0d8" stroke-width="2" fill="none" opacity=".6"/>
+</svg>

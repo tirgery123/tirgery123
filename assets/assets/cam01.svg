@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+<defs>
+  <filter id="nz" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="2">
+      <animate attributeName="seed" values="2;8;4;11;6;1;9" dur=".42s" calcMode="discrete" repeatCount="indefinite"/></feTurbulence>
+    <feColorMatrix values="0 0 0 0 .8  0 0 0 0 .95  0 0 0 0 .82  0 0 0 .22 0"/></filter>
+  <filter id="hard" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".7 .02" numOctaves="1" seed="5">
+      <animate attributeName="seed" values="5;3;9;1;7" dur=".2s" calcMode="discrete" repeatCount="indefinite"/></feTurbulence>
+    <feColorMatrix values="0 0 0 1.4 -.2  0 0 0 1.5 -.2  0 0 0 1.4 -.2  0 0 0 0 1"/></filter>
+  <pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".55"/></pattern>
+  <radialGradient id="vig" cx=".5" cy=".5" r=".72"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".9"/></radialGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="2"/></filter>
+  
+</defs>
+<rect width="900" height="420" fill="#0b100c"/>
+<path d="M0 0 L260 90 L640 90 L900 0 Z" fill="#0e140f"/>
+<rect x="260" y="90" width="380" height="220" fill="#151d17"/>
+<path d="M0 420 L260 310 L640 310 L900 420 Z" fill="#101611"/>
+<path d="M0 0 L260 90 L260 310 L0 420 Z" fill="#121913"/>
+<path d="M900 0 L640 90 L640 310 L900 420 Z" fill="#121913"/>
+<g stroke="#26322a" stroke-width="1.5" fill="none"><path d="M0 0 L260 90 L640 90 L900 0 M0 420 L260 310 L640 310 L900 420 M260 90 V310 M640 90 V310"/></g>
+<rect x="300" y="130" width="70" height="80" fill="#26332a"/><path d="M335 130 V210 M300 170 H370" stroke="#151d17" stroke-width="4"/>
+<rect x="420" y="160" width="76" height="150" fill="#030403"/>
+<path d="M660 330 L900 300 L900 420 L700 420 Z" fill="#1b241d"/><path d="M660 330 L900 300 L900 320 L670 352 Z" fill="#26332a"/>
+<rect x="130" y="300" width="90" height="70" fill="#19211b"/><rect x="150" y="278" width="14" height="22" fill="#26332a"/>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1429;0.3571" calcMode="discrete" dur="14s" repeatCount="indefinite"/><g transform="translate(458 310) scale(0.8)">
+  <path d="M-17 -150 Q-25 -70 -13 0 L13 0 Q25 -70 17 -150 Q0 -160 -17 -150 Z" fill="#020302"/>
+  <path d="M-16 -146 Q-36 -80 -31 -18 M16 -146 Q36 -80 31 -18" stroke="#020302" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <rect x="-4" y="-162" width="8" height="14" fill="#020302"/>
+  <ellipse cx="0" cy="-178" rx="13" ry="18" fill="#020302"/>
+  <circle cx="-5" cy="-180" r="2.3" fill="#f2fff2"/><circle cx="5" cy="-180" r="2.3" fill="#f2fff2"/>
+</g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3571;0.5714" calcMode="discrete" dur="14s" repeatCount="indefinite"/><g transform="translate(560 360) scale(1.25)">
+  <path d="M-17 -150 Q-25 -70 -13 0 L13 0 Q25 -70 17 -150 Q0 -160 -17 -150 Z" fill="#020302"/>
+  <path d="M-16 -146 Q-36 -80 -31 -18 M16 -146 Q36 -80 31 -18" stroke="#020302" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <rect x="-4" y="-162" width="8" height="14" fill="#020302"/>
+  <ellipse cx="0" cy="-178" rx="13" ry="18" fill="#020302"/>
+  <circle cx="-5" cy="-180" r="2.3" fill="#f2fff2"/><circle cx="5" cy="-180" r="2.3" fill="#f2fff2"/>
+</g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5714;0.7857" calcMode="discrete" dur="14s" repeatCount="indefinite"/><g transform="translate(300 470) scale(2.2)">
+  <path d="M-17 -150 Q-25 -70 -13 0 L13 0 Q25 -70 17 -150 Q0 -160 -17 -150 Z" fill="#020302"/>
+  <path d="M-16 -146 Q-36 -80 -31 -18 M16 -146 Q36 -80 31 -18" stroke="#020302" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <rect x="-4" y="-162" width="8" height="14" fill="#020302"/>
+  <ellipse cx="0" cy="-178" rx="13" ry="18" fill="#020302"/>
+  <circle cx="-5" cy="-180" r="2.3" fill="#f2fff2"/><circle cx="5" cy="-180" r="2.3" fill="#f2fff2"/>
+</g></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7857;0.8214" calcMode="discrete" dur="14s" repeatCount="indefinite"/>
+  <ellipse cx="470" cy="230" rx="230" ry="300" fill="#020302"/>
+  <circle cx="400" cy="190" r="16" fill="#f2fff2"/><circle cx="540" cy="190" r="16" fill="#f2fff2"/>
+  <circle cx="400" cy="190" r="5" fill="#000"/><circle cx="540" cy="190" r="5" fill="#000"/>
+</g>
+<rect width="900" height="420" filter="url(#hard)" opacity="0"><animate attributeName="opacity" values="0;1;0;1;0;1;0;1;0;1;0" keyTimes="0;0.1429;0.1557;0.3571;0.37;0.5714;0.5843;0.7857;0.7986;0.8214;0.8343" calcMode="discrete" dur="14s" repeatCount="indefinite"/></rect>
+<rect width="900" height="420" fill="url(#scan)"/>
+<rect width="900" height="420" fill="url(#vig)"/>
+<rect width="900" height="420" filter="url(#nz)"/>
+<text x="450" y="392" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="15" fill="#d6f0d8" letter-spacing="3" opacity="0">MOTION DETECTED<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1429;0.8214" calcMode="discrete" dur="14s" repeatCount="indefinite"/></text>
+<text x="884" y="406" text-anchor="end" font-family="'Courier New',Courier,monospace" font-size="11" fill="#d6f0d8" opacity=".55" letter-spacing="2">WUMBLE // ARCHIVE</text>
+<text x="16" y="26" font-family="'Courier New',Courier,monospace" font-size="14" font-weight="bold" fill="#d6f0d8" letter-spacing="2">CAM 01</text>
+<text x="16" y="44" font-family="'Courier New',Courier,monospace" font-size="12" fill="#d6f0d8" opacity=".75" letter-spacing="2">YOUR ROOM</text>
+<circle cx="838" cy="21" r="6" fill="#ff2020"><animate attributeName="opacity" values="1;0" dur="1s" calcMode="discrete" repeatCount="indefinite"/></circle>
+<text x="850" y="26" font-family="'Courier New',Courier,monospace" font-size="14" font-weight="bold" fill="#d6f0d8">REC</text>
+<text x="16" y="404" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="1">10-21-2026  03:00:00<animate attributeName="opacity" values="1;0;0;0;0;0;0;0;0;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="404" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:01<animate attributeName="opacity" values="0;1;0;0;0;0;0;0;0;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="404" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:02<animate attributeName="opacity" values="0;0;1;0;0;0;0;0;0;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="404" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:03<animate attributeName="opacity" values="0;0;0;1;0;0;0;0;0;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="404" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:04<animate attributeName="opacity" values="0;0;0;0;1;0;0;0;0;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="404" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:05<animate attributeName="opacity" values="0;0;0;0;0;1;0;0;0;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="404" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:06<animate attributeName="opacity" values="0;0;0;0;0;0;1;0;0;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="404" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:07<animate attributeName="opacity" values="0;0;0;0;0;0;0;1;0;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="404" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:08<animate attributeName="opacity" values="0;0;0;0;0;0;0;0;1;0" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text><text x="16" y="404" font-family="'Courier New',Courier,monospace" font-size="13" fill="#d6f0d8" opacity="0">10-21-2026  03:00:09<animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;1" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text>
+<path d="M10 10 h24 M10 10 v24 M890 10 h-24 M890 10 v24 M10 410 h24 M10 410 v-24 M890 410 h-24 M890 410 v-24" stroke="#d6f0d8" stroke-width="2" fill="none" opacity=".6"/>
+</svg>
