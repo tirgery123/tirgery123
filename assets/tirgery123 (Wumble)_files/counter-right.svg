@@ -1,0 +1,9 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="40" viewBox="0 0 34 40">
+  <path d="M0 0 H22 L28 6 L24 13 L30 20 L25 28 L31 34 L26 40 H0 Z" fill="#000"/>
+  <rect x="0" y="0" width="22" height="2" fill="#8b0000"/><rect x="0" y="38" width="22" height="2" fill="#8b0000"/>
+  <g fill="#b00000">
+    <rect x="6" y="2" width="3" height="4" rx="1.5"><animate attributeName="height" values="4;30;30" keyTimes="0;.8;1" dur="4s" repeatCount="indefinite"/></rect>
+    <rect x="14" y="2" width="2.5" height="3" rx="1.2"><animate attributeName="height" values="3;20;20" keyTimes="0;.8;1" dur="5.5s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>
